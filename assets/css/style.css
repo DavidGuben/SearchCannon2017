@@ -1,0 +1,194 @@
+.txt-shadow { text-shadow: 1px 1px 1px #000; }
+.wht-txt { color: #fff; }
+.blk-txt { color: #000; }
+
+html, body {
+    height: 100%;
+}
+
+.wrapper{
+    text-align: center;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+
+}
+.jumbotron {
+  padding: 30px;
+}
+
+.text-gradient {
+    text-shadow: 1px 1px 1px #000;
+}
+
+.search-status{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.form-wrapper {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 4px;
+}
+
+.form-wrapper, .form-search-bar{
+    min-height: 50px
+}
+
+#search-submit, #search-bar, .search-status{
+    min-height: 38px;
+}
+
+.form-search-bar {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0px auto;
+    overflow: auto;
+    padding: 4px;
+}
+
+#search-bar {
+    border-radius: 3px;
+    color: #999;
+    float: left;
+    font: 16px Lucida Sans, Trebuchet MS, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+#submit {
+    border: 1px solid #00748f;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 0 #FFF;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 0 #FFF;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 0 #FFF;
+    color: #fafafa;
+    cursor: pointer;
+    height: 24px;
+    float: right;
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    width: 36px;
+}
+
+.name-representative-web{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #615869;
+    color: white;
+    padding: 10px;
+}
+
+.output-web{
+    background-color: white;
+    border: 5px solid #615869;
+    min-height: 150px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.output-web > div, .output-wiki > div{
+    background-color: #fff;
+}
+
+.name-representative-wiki{
+    background-color: #615869;
+    color: white;
+    padding: 10px;
+}
+
+.output-wiki{
+	background-color: white;
+	border: 5px solid #615869;
+    min-height: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.output-wiki > div{
+    border-bottom: 1px solid #e6e4e4;
+}
+
+.name-representative-images{
+    background-color: #615869;
+    color: white;
+    padding: 10px;
+}
+
+.output-images{
+	background-color: white;
+	border: 5px solid #615869;
+    min-height: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.output-images > div{
+    margin: 5px;
+    display: inline-block;
+}
+
+.name-representative-videos{
+    background-color: #615869;
+    color: white;
+    padding: 10px;
+}
+
+.output-videos{
+	background-color: white;
+	border: 5px solid #615869;
+    min-height: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.output-videos > pre{
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 991px){
+    .output-web > div{
+        border-bottom: 1px solid #e6e4e4;
+    }
+    .output-wiki, .output-images, .output-videos{
+        max-height: 200px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .md-padding{
+        padding: 0px;
+    }
+    .output-wiki, .output-images, .output-videos{
+        max-height: 350px;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .output-wiki, .output-images, .output-videos{
+        height: 400px;
+    }
+}
+.jumbotron {
+    padding-top: 100px;
+    background: #333;
+    color:#fff;
+}
+
+footer ul {
+    list-style: none;
+    display: inline-block;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-left: 10px;
+}

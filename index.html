@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="google-signin-scope" content="profile email">
+		<meta name="google-signin-client_id" content="32226543523-54auls49efimamt7nn5f33u0pecrjphk.apps.googleusercontent.com">
+		<script src="https://apis.google.com/js/platform.js" async defer></script>
+		<title>Search Cannon</title>
+
+		<link rel="stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+
+	<div class = "wrapper">
+		<div class = "">
+		<div class = "row">
+			<div class = "col-xs-12">
+
+			<!-- google sign in (in testing)
+				<div class = "col-md-3">
+					<div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+					<a href="#" onclick="signOut();">Sign out</a>
+				</div>-->
+
+				<div id="s-status" class = "col-md-12 top-buffer bot-buffer">
+					<form class="form-wrapper">
+							<div class="well search-status">Start Searching Smarter!</div>
+					</form>
+				</div>
+				<div class ="search-bar-section">
+
+				</div>
+		<div class="jumbotron">
+		  <div class="container">
+				<div id="logo" class = "bot-buffer">
+					<img src="assets/images/logo-vector.png" alt="logo">
+				</div>
+				<form class="">
+					<div class="input-group">
+						<input type="text" id="search-bar" class="form-control" placeholder="Search for...">
+						<span class="input-group-btn">
+							<button class="btn btn-primary" id="search-submit" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+						</span>
+					</div><!-- /input-group -->
+				</form>
+				<p class="txt-shadow top-buffer wht-txt">Search Cannon is an advanced search aggregator for any key-term as it fetches data from other major search engines.
+				</p>
+		  </div>
+		</div>
+		<div class="container">
+			<footer>
+				<ul class="text-center top-buffer" hidden="true">
+					<li><a href="#"  id="target">HOME</a></li>
+					<li><a href="#">ABOUT US</a></li>
+					<li><a href="#">CONTACT US</a></li>
+				</ul>
+			</footer>
+		</div>
+	</div><!-- ./wrapper -->
+	<script src="https://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	<!--<script type="text/javascript" src="assets/javascript/g-sign-in.js"></script> - google sign in -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"></script>
+</body>
+</html>
